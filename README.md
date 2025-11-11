@@ -1,5 +1,5 @@
-# Analysis on commodities
-All commodities are aggregated in monthly average with USD as denomination currency
+# Analysis on commodity & security assets
+All assets are aggregated in monthly average with USD as denomination currency
 
 ## Gold Data:
 
