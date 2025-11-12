@@ -1,5 +1,5 @@
 # Set Up:
-## Google Colab:
+### Google Colab:
 In colab, we need to make sure the necessary csv files are loaded in the correct folders in order for the script to find the correct file. To do so: 
 
 1. Open the folder tab in Colab, and create the 2 folders, "commodity-data" and "cleaned-data" that are used to store our data: `New folder` > `"commodity-data"` and `New folder` > `"cleaned-data"`
@@ -9,7 +9,7 @@ In colab, we need to make sure the necessary csv files are loaded in the correct
 
 3. The cleaned-data will be the folder where we preprocess the data and save before we do analysis. At this point, this folder can be left empty. 
 
-## Local:
+### Local:
 Since the folders are all in place, the only necessary step is to install the dependencies for scripting. These dependencies are listed in: `requirements.txt`.
 To make sure the virtual environment is set up correctly (with the default `venv` folder):
 
@@ -21,11 +21,11 @@ python -m venv venv
 ```bash
 source venv/bin/activate
 ```
-3. Once the virtual environment has been activated, make sure the notebook's kernel is using the current venv environment.
+3. Once the virtual environment has been activated, make sure the notebook's kernel is using the current `venv` environment.
 
 
 # Analysis on commodity & security assets
-All assets are aggregated in monthly average with USD as denomination currency
+- All assets are aggregated in monthly average with USD as denomination currency
 
 ## Gold Data:
 
@@ -33,7 +33,9 @@ Period: 1/31/1978 - 10/31/2025
 
 The monthly averaged LBMA Gold Price data is sourced from: https://www.gold.org/ which consolidates gold prices from Bloomberg, Datastream, ICE Benchmark Administration, World Gold Council
 
-Fields: date, price
+Fields:
+- date
+- price
 
 
 ## Bitcoin Data:
@@ -42,8 +44,15 @@ Periods: 08/01/2010 - 11/01/2025
 
 The monthly averaged Bitcoin Price data is sourced from: https://www.investing.com/crypto/bitcoin/historical-data
 
-Fields: date, price, open, high, low, volume, percent_change
+Fields:
+- date
+- price
+- open
+- high
+- low
+- volume
+- percent_change
 
 
 # Note:
-- percent_change = open - price / open 
+1. percent_change = open - price / open 
