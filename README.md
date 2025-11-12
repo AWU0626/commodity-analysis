@@ -18,5 +18,6 @@ The monthly averaged Bitcoin Price data is sourced from: https://www.investing.c
 
 Fields: date, price, open, high, low, volume, percent_change
 
-Note:
+
+# Note:
 - percent_change = open - price / open 
