@@ -1,16 +1,20 @@
 # Set Up:
 ## Google Colab:
 
+
 ## Locally:
-- In local development, the necessary dependencies are listed in:
+Since the folders are all in place, the only necessary step is to install the dependencies for scripting. These dependencies are listed in: `requirements.txt`.
+To make sure the virtual environment is set up correctly (with the default `venv` folder):
+
+1. Make sure you are under the root directory and run the following to create your virtual environment:
 ```bash
-requirements.txt
+python -m venv venv
 ```
-.
-To make sure the virtual environment is set up correctly using the default 
+2. Once the `venv` directory has been set up, run the virtual environment:
 ```bash
-venv
-```, 
+source venv/bin/activate
+```
+3. Once the virtual environment has been activated, make sure the notebook's kernel is using the current venv environment.
 
 
 # Analysis on commodity & security assets
