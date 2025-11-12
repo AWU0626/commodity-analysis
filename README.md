@@ -1,3 +1,18 @@
+# Set Up:
+## Google Colab:
+
+## Locally:
+- In local development, the necessary dependencies are listed in:
+```bash
+requirements.txt
+```
+.
+To make sure the virtual environment is set up correctly using the default 
+```bash
+venv
+```, 
+
+
 # Analysis on commodity & security assets
 All assets are aggregated in monthly average with USD as denomination currency
 
